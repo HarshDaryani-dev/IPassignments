@@ -1,0 +1,33 @@
+body {
+  background-image: linear-gradient(to bottom right, #290001, #8d93ab, #2d4059);
+}
+
+.hed {
+  color: #290001;
+}
+
+.len {
+  display: inline-block;
+}
+
+.temp {
+  display: inline-block;
+}
+
+.speed {
+  display: inline-block;
+}
+
+.weight {
+  display: inline-block;
+}
+
+.left {
+  position: relative;
+  right: 100px;
+}
+
+.right {
+  position: relative;
+  left: 100px;
+}

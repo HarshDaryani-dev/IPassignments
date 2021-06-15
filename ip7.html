@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<link href="https://fonts.googleapis.com/css2?family=Bangers&family=Montserrat&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="./style.css">
+
+	<title>mediaquery</title>
+	<style>
+		{
+			padding: 0;
+			margin: 0;
+			box-sizing: border-box;
+		}
+
+		.home {
+			position: relative;
+			left: 60px;
+			top: 15px;
+		}
+
+		body {
+			font-family: 'Montserrat', sans-serif;
+			color: black;
+			background-color: #eb7070;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			width: 100%;
+			margin: auto;
+		}
+
+		h1 {
+			font-family: 'Bangers', cursive;
+			padding-top: 2em;
+			letter-spacing: 3px;
+		}
+
+		#content {
+			display: flex;
+		}
+
+		#media-queries,
+		#typography {
+			padding-top: 5em;
+			flex: 0.5;
+		}
+
+		#typography {
+			padding-left: 1em;
+		}
+
+
+		video {
+
+			width: 60%;
+		}
+
+		.font12 {
+			font-family: 'Verdana', serif;
+		}
+
+		@media screen and (max-width: 1050px) {
+			#content {
+				flex-direction: column;
+			}
+
+			#typography {
+				padding-left: 0;
+				padding-bottom: 5em;
+			}
+		}
+
+		@media screen and (max-width: 1000px) {
+
+			#media-queries,
+			#typography {
+				background-color: #bb2205;
+			}
+		}
+
+		@media screen and (max-width: 800px) {
+
+			#media-queries,
+			#typography {
+				background-color: #fcf876;
+			}
+		}
+
+		@media screen and (max-width: 700px) {
+
+			#media-queries,
+			#typography {
+				background-color: #e6e56c;
+			}
+		}
+	</style>
+</head>
+
+<body>
+	<h1> Internet Programming Assignment 7 <br> (Font used: Bangers) </h1>
+	<div id="content">
+		<div id="media-queries">
+			<video width="300" height="200" src="memevideo.mp4" controls></video> <br>
+			<h2> MEME <br> (Font used: Montserrat) </h2>
+			<div class="answer font12">
+				A meme is an idea, behavior, or style that becomes a fad and spreads by means of imitation from person to person within a culture and often carries symbolic meaning representing a particular phenomenon or theme.A meme acts as a unit for
+				carrying cultural ideas, symbols, or practices, that can be transmitted from one mind to another through writing, speech, gestures, rituals, or other imitable phenomena with a mimicked theme. Supporters of the concept regard memes as cultural
+				analogues to genes in that they self-replicate, mutate, and respond to selective pressures.
+				Proponents theorize that memes are a viral phenomenon that may evolve by natural selection in a manner analogous to that of biological evolution.
+				(Font used: Verdana)
+			</div>
+		</div>
+
+
+		<div id="typography">
+			<h2> For Example <br> (Font used: Montserrat) </h2>
+			<div class="answer font12">
+				This is an example of a clasic scary face meme. It is used to demonstrate that someone is scared.
+				(Font used: Verdana)
+			</div>
+
+			<figure>
+				<br>
+				<img width="250" height="150" src="dogo.jpg"></img>
+				<br>
+				<figcaption> </figcaption>
+				<br>
+				<audio controls>
+					<audio src="audio.mp3" type="audio/mp3">
+					</audio> </br>
+			</figure>
+			<a href="ip.html" class="home"><button class="home btn btn-danger">Home</button></a>
+		</div>
+		<span><span>
+
+				<span></span>
+
+
+
+
+</body>
+
+</html>

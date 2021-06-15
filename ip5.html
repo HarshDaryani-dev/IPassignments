@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <link rel="stylesheet" href="ip5styles.css">
+</head>
+
+<body>
+  <center>
+    <div class="temp left">
+
+      <!-- Temperature converter -->
+
+      <h1 class="hed"><u><em>Temperature converter</em></u></h1>
+      <label for="">Enter value in Celcius</label>
+      <input type="number" oninput="temperature(this.value)" onchange="temperature(this.value)">
+      <br>
+      <label>Fahrenheit: <span id="far"></span></label>
+      <br>
+      <label>Kelvin: <span id="kel"></span></label>
+      <br>
+      <label for="">Enter value in Fahrenheit</label>
+      <input type="number" oninput="temperature2(this.value)" onchange="temperature2(this.value)">
+      <br>
+      <label>Celcius: <span id="far2"></span></label>
+      <br>
+      <label>Kelvin: <span id="kel2"></span></label>
+      <br>
+      <label for="">Enter value in Kelvin</label>
+      <input type="number" oninput="temperature3(this.value)" onchange="temperature3(this.value)">
+      <br>
+      <label>Fahrenheit: <span id="far3"></span></label>
+      <br>
+      <label>Celcius: <span id="kel3"></span></label>
+    </div>
+
+    <!-- Length converter -->
+
+    <div class="len right">
+      <h1 class="hed"><u><em>Length converter</em></u></h1>
+      <label for="">Enter value in meters</label>
+      <input type="number" oninput="length(this.value)" onchange="length(this.value)">
+      <br>
+      <label>Centimeters: <span id="cm"></span></label>
+      <br>
+      <label>Kilometers: <span id="km"></span></label>
+      <br>
+      <label for="">Enter value in centimeters</label>
+      <input type="number" oninput="length2(this.value)" onchange="length2(this.value)">
+      <br>
+      <label>Meters: <span id="cm2"></span></label>
+      <br>
+      <label>Kilometers: <span id="km2"></span></label>
+      <br>
+      <label for="">Enter value in kilometers</label>
+      <input type="number" oninput="length3(this.value)" onchange="length3(this.value)">
+      <br>
+      <label>Centimeters: <span id="cm3"></span></label>
+      <br>
+      <label>Meters: <span id="km3"></span></label>
+    </div>
+    <br>
+    <br>
+    <br>
+    <hr>
+    <br>
+
+    <!-- Weight converter -->
+
+    <div class="weight left">
+      <h1 class="hed"><u><em>Weight converter</em></u></h1>
+      <label for="">Enter value in kilograms</label>
+      <input type="number" oninput="weight(this.value)" onchange="weight(this.value)">
+      <br>
+      <label>Grams: <span id="gm"></span></label>
+      <br>
+      <label>Pounds: <span id="p"></span></label>
+      <br>
+      <label for="">Enter value in grams</label>
+      <input type="number" oninput="weight2(this.value)" onchange="weight2(this.value)">
+      <br>
+      <label>kilograms: <span id="gm2"></span></label>
+      <br>
+      <label>Pounds: <span id="p2"></span></label>
+      <br>
+      <label for="">Enter value in pounds</label>
+      <input type="number" oninput="weight3(this.value)" onchange="weight3(this.value)">
+      <br>
+      <label>Grams: <span id="gm3"></span></label>
+      <br>
+      <label>Kilograms: <span id="p3"></span></label>
+    </div>
+
+    <!-- Speed converter -->
+
+    <div class="speed right">
+      <h1 class="hed"><u><em>Speed converter</em></u></h1>
+      <label for="">Enter value in meters per second</label>
+      <input type="number" oninput="speed(this.value)" onchange="speed(this.value)">
+      <br>
+      <label>Kilometers per second: <span id="ks"></span></label>
+      <br>
+      <label>Kilometers per hour: <span id="kh"></span></label>
+      <br>
+      <label for="">Enter value in kilometers per second</label>
+      <input type="number" oninput="speed2(this.value)" onchange="speed2(this.value)">
+      <br>
+      <label>Meters per second: <span id="ks2"></span></label>
+      <br>
+      <label>Kilometers per hour</label>: <span id="kh2"></span></label>
+      <br>
+      <label for="">Enter value in kilometers per hour</label>
+      <input type="number" oninput="speed3(this.value)" onchange="speed3(this.value)">
+      <br>
+      <label>Meters per second: <span id="ks3"></span></label>
+      <br>
+      <label>Kilometers per second: <span id="kh3"></span></label>
+    </div>
+    <br>
+    <hr>
+    <br>
+    <br>
+    <a href="ip.html"><button>Home</button></a>
+    <br>
+  </center>
+  <script src="ip5logic.js" charset="utf-8"></script>
+</body>
+
+</html>

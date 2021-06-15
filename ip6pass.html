@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style>
+
+    body {
+      background-color: #f7dad9;
+    }
+
+    .main {
+      position: relative;
+      padding: 0px 400px;
+    }
+
+    .shiftleft1 {
+      text-align: left;
+      position: relative;
+      right: 80px;
+    }
+
+    .shiftleft2 {
+      text-align: left;
+      position: relative;
+      right: 82px;
+    }
+
+    .check1 {
+      text-align: left;
+      position: relative;
+      right: 55px;
+    }
+
+    .check2 {
+      text-align: left;
+      position: relative;
+      right: 57px;
+    }
+
+    .check3 {
+      text-align: left;
+      position: relative;
+      right: 58px;
+    }
+
+    .check4 {
+      text-align: left;
+      position: relative;
+      right: 36px;
+    }
+
+    </style>
+  </head>
+  <body>
+
+    <center>
+      <div class="main">
+        <h1>Suggestions</h1>
+        <form action="mailto:harshdaryanispamfolder@gmail.com">
+          <fieldset>
+            <legend>Required</legend>
+              <input type="text" placeholder="Full Name" required>
+              <br>
+              <input type="text" placeholder="Age" required>
+              <br>
+              <label for="customer">Are you our existing customer:</label>
+              <br>
+              <input type="radio" name="customer" value="Yes" class="shiftleft1">
+              <label class="shiftleft1">Yes</label>
+              <br>
+              <input type="radio" name="customer" value="No" class="shiftleft2">
+              <label class="shiftleft2">No</label>
+              <br>
+          </fieldset>
+          <fieldset>
+            <legend>Suggestions</legend>
+              <label>What products would you like to add to our menu</label>
+              <br>
+              <textarea name="name" rows="15" cols="20"></textarea>
+              <br>
+              <input type="text" placeholder="Tips to improve our service">
+              <br>
+              <label>How did you find our website</label>
+              <br>
+              <input type="checkbox" class="check1">
+              <label class="check1">WhatsApp</label>
+              <br>
+              <input type="checkbox" class="check2">
+              <label class="check2">Instagram</label>
+              <br>
+              <input type="checkbox" class="check3">
+              <label class="check3">Facebook</label>
+              <br>
+              <input type="checkbox" class="check4">
+              <label class="check4">A friend told you</label>
+              <br>
+          </fieldset>
+          <button type="submit" name="button">Submit</button>
+        </form>
+      </div>
+    </center>
+
+  </body>
+</html>

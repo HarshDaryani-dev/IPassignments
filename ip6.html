@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Form</title>
+  <link rel="stylesheet" href="static/ip6.css">
+  <style>
+
+  body {
+    background-color: #d6d2c4;
+  }
+
+  .main {
+    position: relative;
+    top: 200px;
+  }
+
+  .lt {
+    position: relative;
+    right: 5px;
+  }
+
+  .pt {
+    position: relative;
+    right: 1px;
+  }
+
+  </style>
+</head>
+
+<body>
+  <center>
+    <div class="main">
+      <h1>Log In</h1>
+      <form action="/" method="POST">
+        <label for="">Enter your</label>
+        <br>
+        <label class="lt" for="">login ID:</label>
+        <br>
+        <input type="text" id='logid' name='logid' required>
+        <br><br>
+        <label for="">Enter your</label>
+        <br>
+        <label class="pt" for="">password:</label>
+        <br>
+        <input type="password" name='pass' id='pass' required>
+        <br><br>
+        <input type="submit">
+      </form>
+      <br>
+      <a href="ip.html"><button>Home</button></a>
+    </div>
+  </center>
+</body>
+
+</html>

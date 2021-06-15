@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="ip4stylesheet.css">
+        <script src ="main.js"></script>
+    </head>
+
+    <body>
+        <div class = "main-div" >
+        <table border="10">
+            <tr>
+                <td colspan="4"><input id="input-name" value = "Harsh" readonly></button></td>
+                <td colspan="1"><button onclick="clear_input()">C</button> </td>
+            </tr>
+           <tr>
+              <td ><input id="fno-textbox" type="text" id="n1"/></td>
+              <td ><input id="operator-textbox" type="text" id="operator"/></td>
+              <td ><input id="sno-textbox" type="text" id="n2"/></td>
+              <td ><button onclick="calculate()">=</button> </td>
+              <td ><input id="res-textbox" type="text" id="n2"/></td>
+           </tr>
+           <tr>
+              <td><button onclick="set_operation('+')">+</button> </td>
+              <td><button onclick="set_operation('-')">-</button> </td>
+              <td><button onclick="set_operation('*')">*</button> </td>
+              <td><button onclick="set_operation('/')">/</button></td>
+              <td><button onclick="set_operation('%')">%</button></td>
+           </tr>
+           <tr>
+              <td><button onclick="number_press('9')">9</button> </td>
+              <td><button onclick="number_press('8')">8</button> </td>
+              <td><button onclick="number_press('7')">7</button> </td>
+              <td><button onclick="number_press('6')">6</button> </td>
+              <td><button onclick="number_press('5')">5</button> </td>
+           </tr>
+           <tr>
+            <td><button onclick="number_press('4')">4</button> </td>
+            <td><button onclick="number_press('3')">3</button> </td>
+            <td><button onclick="number_press('2')">2</button> </td>
+            <td><button onclick="number_press('1')">1</button> </td>
+            <td><button onclick="number_press('0')">0</button> </td>
+           </tr>
+        </table>
+        <br>
+        <br>
+        <center>
+        <a href="ip.html"><button>Home</button></a>
+      </center>
+    </div>
+     </body>
+</html>
